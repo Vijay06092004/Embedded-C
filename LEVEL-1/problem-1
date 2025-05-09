@@ -1,1 +1,22 @@
-** question : Get a number from the user, subtract 5 from that number and print the result **
+**Question : Get a number from the user, subtract 5 from that number and print the result**
+
+Example : input : 45       output : 40
+          input : 56789    output : 56784
+
+code  :
+
+#include <stdio.h>
+
+int main() {
+    int number, result;
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    result = number - 5;
+    printf("Result after subtracting 5: %d\n", result);
+    return 0;
+}
+
+
+Result : 
+Enter a number: 45       Result after subtracting 5 : 40
+Enter a number: 56789    Result after subtracting 5 : 56784
