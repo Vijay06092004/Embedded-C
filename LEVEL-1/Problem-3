@@ -1,0 +1,23 @@
+
+**Question : Get a number from the user, multiply 3 by that number and print the result**
+
+Example : input : 45       output : 135
+          input : 1200    output : 3600
+
+code  :
+
+#include <stdio.h>
+
+int main() {
+    int number, result;
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    result = number * 3;
+    printf("Result after multiply by 3 : %d\n", result);
+    return 0;
+}
+
+
+Result : 
+Enter a number: 45       Result after multiply by 3 : 135
+Enter a number: 1200     Result after multiply by 3 : 3600
