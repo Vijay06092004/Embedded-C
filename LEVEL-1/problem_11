@@ -1,0 +1,19 @@
+Get a three digit number from the user and print the sum of the digits
+
+Example:   input : 562   output 13
+           input : 469   output 19
+
+code: 
+
+#include<stdio.h>
+int main(){
+    int num,result;
+    printf("enter a number : ");
+    scanf("%d",&num);
+    result= num%10 + (num / 10) % 10 + num/100;
+    printf("result is %d",result);
+    return 0;
+}
+
+output :  enter a number : 562 result is :13
+          enter a number : 469 result is :19
