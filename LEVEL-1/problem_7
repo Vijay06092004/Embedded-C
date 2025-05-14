@@ -1,0 +1,18 @@
+Get a two digit number from the user and print the ten's digit
+
+example : input : 45   output : 4
+          input : 56   output : 5
+
+code: 
+#include<stdio.h>
+int main() {
+    int num,result;
+    printf("enter a number : ");
+    scanf("%d", &num);
+    result = num / 10 ;
+    printf("%d",result);
+}
+
+Result : 
+        enter a number :45    result:4
+        enter a number :56    result:5
