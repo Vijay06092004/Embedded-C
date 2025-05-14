@@ -1,0 +1,19 @@
+Get a three- digit number from the user and print the ten's digit
+
+Example : input : 456   output : 5
+          input : 569   output : 6
+
+code : 
+#include<stdio.h>
+int main(){
+    int num,result;
+    printf("enter a number : ");
+    scanf("%d",&num);
+    result= (num / 10) % 10;
+    printf("result is %d",result);
+    return 0;
+}
+
+Result : 
+         enter a number : 456  result is :5
+         enter a number : 569  result is :6
