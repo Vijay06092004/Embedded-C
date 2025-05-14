@@ -1,19 +1,21 @@
-Get a three- digit number from the user and print the ten's digit
+Get a two- digit number from the user and print the reverse of the number
 
-Example : input : 456   output : 5
-          input : 569   output : 6
+Example : input : 56   output : 65
+          input : 69   output : 96
 
 code : 
 #include<stdio.h>
 int main(){
     int num,result;
     printf("enter a number : ");
-    scanf("%d",&num);
-    result= (num / 10) % 10;
-    printf("result is %d",result);
+    scanf("%d", &num);
+    int ones_digit = num % 10;
+    int tens_digit = num /10;
+    result = ones_digit * 10 + tens_digit;
+    printf("two digit revered number is %d", result);
     return 0;
-}
 
+}
 Result : 
-         enter a number : 456  result is :5
-         enter a number : 569  result is :6
+         two digit revered number is : 56  result is :65
+         two digit revered number is : 69  result is :96
