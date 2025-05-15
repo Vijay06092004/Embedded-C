@@ -12,10 +12,10 @@ int main(){
     int ones_digit = num % 10;
     int tens_digit = num /10;
     result = ones_digit * 10 + tens_digit;
-    printf("three digit revered number is %d", result);
+    printf("tw0 digit revered number is %d", result);
     return 0;
 
 }
 Result : 
-         three digit revered number is : 56  result is :65
-         three digit revered number is : 69  result is :96
+         two digit revered number is : 56  result is :65
+         two digit revered number is : 69  result is :96
