@@ -12,7 +12,7 @@ int main(){
     int ones_digit = num % 10;
     int tens_digit = num /10;
     result = ones_digit * 10 + tens_digit;
-    printf("tw0 digit revered number is %d", result);
+    printf("two digit revered number is %d", result);
     return 0;
 
 }
