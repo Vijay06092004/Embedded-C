@@ -1,6 +1,4 @@
-
-
-**Question : Get a number from the user, divide the number by 8 and print the remainder**
+Question : Get a number from the user, divide the number by 8 and print the remainder
 
 Example : input : 45       output : 5
           input : 143      output : 7
