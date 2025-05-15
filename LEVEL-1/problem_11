@@ -1,4 +1,4 @@
-Get a three digit number from the user and print the sum of the digits
+Question : Get a three digit number from the user and print the sum of the digits
 
 Example:   input : 562   output 13
            input : 469   output 19
