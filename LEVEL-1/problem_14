@@ -1,0 +1,23 @@
+Get a four- digit number from the user and only reverse the first two digits of the number, print the  number
+
+Example : input : 9561   output : 9516
+          input : 3869   output : 3895
+
+code : 
+
+#include<stdio.h>
+int main(){
+    int num,result;
+    printf("enter a number : ");
+    scanf("%d", &num);
+    int ones_digit = num % 10;
+    int tens_digit = (num /10)%10;
+    int rem_num = num/100; 
+    result = rem_num*100 + ones_digit * 10 + tens_digit;
+    printf("four digit number is %d", result);
+    return 0;
+
+}
+Result : 
+         four digit number is : 9561  result is :9516
+         four digit number is : 3869  result is :3895
