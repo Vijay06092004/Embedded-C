@@ -1,5 +1,4 @@
-
-**Question : Get a number from the user, multiply 3 by that number and print the result**
+Question : Get a number from the user, multiply 3 by that number and print the result
 
 Example : input : 45       output : 135
           input : 1200    output : 3600
