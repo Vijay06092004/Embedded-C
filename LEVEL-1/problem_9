@@ -1,5 +1,4 @@
-
-Get a three- digit number from the user and print the hundred's digit
+Question : Get a three- digit number from the user and print the hundred's digit
 
 Example : input : 456   output : 4
           input : 569   output : 5
