@@ -1,5 +1,4 @@
-
-**Question : Get a number from the user, subtract 5 from that number and print the result**
+Question : Get a number from the user, subtract 5 from that number and print the result
 
 Example : input : 45       output : 40
           input : 56789    output : 56784
