@@ -1,4 +1,4 @@
-Get a two digit number from the user and print the ten's digit
+Question : Get a two digit number from the user and print the ten's digit
 
 example : input : 45   output : 4
           input : 56   output : 5
