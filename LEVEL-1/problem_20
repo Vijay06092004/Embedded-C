@@ -1,0 +1,21 @@
+Get a two digit number from the user, subtract 5 from that number if the sum of the digits of the number is odd then, print the result. Do not use "if"
+Example : input : 95   output : 95
+          input : 72   output : 67
+
+code : 
+
+#include <stdio.h>
+int main() {
+   int num,result;
+   printf("enter a number : ");
+   scanf("%d",&num);
+   int ones_digit = num % 10;
+   int tens_digit = num /10;
+   int sum = ones_digit + tens_digit;
+   result = num - 5 * (sum % 2);
+   printf("the result is %d\n : ", result);
+   return 0;
+}
+Result : 
+         enter a number : 95  the result is : 95
+         enter a number : 72  the result is : 67
