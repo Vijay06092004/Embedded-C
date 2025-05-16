@@ -19,13 +19,13 @@ To get started with the code in this repository:
 
 ## Progress 📈
 This section will be updated regularly with each new project added. Here's what I've worked on so far:
-- **Project 1**: LED Blinking 💡
-- **Project 2**: DC Motor
-- **Project 3**: Key Switch Led
-- **Project 4**: Squarewave Generation
-- **Project 5**: 16X2 LCD Display
-- **Project 6**: 7 Segment Display
-- **Project 7**: Digital Clock
+- **Project 1**: 
+- **Project 2**: 
+- **Project 3**:
+- **Project 4**: 
+- **Project 5**: 
+- **Project 6**:
+- **Project 7**: 
 
 
   
