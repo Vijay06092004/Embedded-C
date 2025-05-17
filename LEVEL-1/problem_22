@@ -1,0 +1,32 @@
+Get a three digit number from the user, if the sum of the digits is less than 10, then print the sum, otherwise add the digits of the sum. if the sum of the digits is less than 10, then print the sum, otherwise add the digits of the sum, and print the sum, 
+Note: the result should always be a single digit only.
+
+Example : input : 123   output : 6
+          input : 149   output : 5(149 : 1 + 4 +9 = 14; 1+4=5)
+          input : 991   output : 1(991 : 9 + 9 +1 = 19; 1+9=10; 1+0=1)
+
+code : 
+
+#include <stdio.h>
+int main() {
+   int num,sum;
+   printf("enter a number : ");
+   scanf("%d",&num);
+   
+   int ones_digit = num % 10; 
+   int tens_digit = (num / 10) % 10;
+   int huns_digit = num /100;
+   
+   sum = ones_digit + tens_digit + huns_digit;
+   
+   while(sum >= 10) {
+    sum = (sum / 10) + (sum % 10);
+   }
+   printf(" the result is : %d ", sum);
+   
+   return 0;
+}
+Result : 
+         enter a number : 123  the result is : 6
+         enter a number : 149  the result is : 5
+         enter a number : 991  the result is : 1
