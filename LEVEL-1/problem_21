@@ -1,0 +1,20 @@
+Get a three digit number from the user, subtract 5 from that number if one's digit number and 100's digit number are odd. then, print the result. Do not use "if"
+Example : input : 795   output : 790
+          input : 372   output : 372
+
+code : 
+
+#include <stdio.h>
+int main() {
+   int num,result;
+   printf("enter a number : ");
+   scanf("%d",&num);
+   int ones_digit = num % 10; 
+   int huns_digit = num /100;
+   result =  num - 5 * (ones_digit % 2) * (huns_digit % 2) ;
+   printf("the result is %d\n : ", result);
+   return 0;
+}
+Result : 
+         enter a number : 795  the result is : 790
+         enter a number : 372  the result is : 372
