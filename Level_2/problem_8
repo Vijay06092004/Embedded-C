@@ -1,9 +1,9 @@
 Get a two-digit number from the user and check if the digit 0 less than digit 1 if yes the print 1, otherwise print 0
 
 Example: 
-        input : 55    output : 0
-        input : 567   output : 1
-        input  : 52   output : 1
+        input : 52    output : 1
+        input : 76   output : 1
+        input  : 12   output : 0
 
 code : 
 
@@ -20,6 +20,6 @@ int main() {
 }  
 
 result : 
-        input : 55  output : 1
-        input : 567 output : 0
-        input  : 52 output : 0
+        input : 52  output : 1
+        input : 76 output : 1
+        input  : 12 output : 0
