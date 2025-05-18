@@ -1,4 +1,4 @@
-Get a two-digit number from the user and check if the digit 0 less than digit 1 if yes the print 1, otherwise print 0
+Get a two-digit number from the user and check if the digit 0 greater than digit 1 if yes the print 1, otherwise print 0
 
 Example: 
         input : 54   output : 0
