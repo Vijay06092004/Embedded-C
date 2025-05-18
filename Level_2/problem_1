@@ -5,7 +5,6 @@ Example:
         input : 56789 output : 0
 
 code : 
-
 #include<stdio.h>
 int main() { 
     int num,result;
