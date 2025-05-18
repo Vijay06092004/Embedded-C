@@ -1,4 +1,4 @@
-Get a number from the user and check if the number is less than or equal to 50 if yes the print 1, otherwise print 0
+Get a two-digit number from the user and check if the digit 0 and digit 1 are identical if yes the print 1, otherwise print 0
 
 Example: 
         input : 55    output : 1
