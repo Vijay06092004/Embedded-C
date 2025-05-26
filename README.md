@@ -3,7 +3,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/ganeshsrinivasan18/Embedded-C-Programming)
 ![GitHub license](https://img.shields.io/github/license/ganeshsrinivasan18/Embedded-C-Programming)
 
-Welcome to my **Embedded C Programming** repository! This repository is dedicated to my journey of learning Embedded C, focusing on real-world applications, hardware interfacing, and low-level programming. I will be posting code snippets, projects, and notes related to embedded systems, along with simulations using **Proteus Software** and development with **Keil uVision**. 🚀
+Welcome to my **Embedded C Programming** repository! This repository is dedicated to my journey of learning Embedded C, focusing on real-world applications, hardware interfacing, and low-level programming. I will be posting code snippets, projects, and notes related to embedded systems, along with simulations. 🚀
 
 ## Repository Contents 📂
 - **Code**: Various Embedded C programs and projects, ranging from basic concepts to complex applications. 💻
@@ -19,13 +19,9 @@ To get started with the code in this repository:
 
 ## Progress 📈
 This section will be updated regularly with each new project added. Here's what I've worked on so far:
-- **Project 1**: 
-- **Project 2**: 
-- **Project 3**:
-- **Project 4**: 
-- **Project 5**: 
-- **Project 6**:
-- **Project 7**: 
+- **level 1**:
+- **level 2**: 
+
 
 
   
