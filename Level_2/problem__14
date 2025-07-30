@@ -1,1 +1,25 @@
+Write a C program to add two numbers using a function. In this case, one of the values (a) is modified inside the function before the addition.
+Observe the effect on the result and original variable.
+#include <stdio.h>
 
+int add();
+int a, b, c;
+
+int main()
+{
+    a = 10;
+    b = 20;
+    c = add(a, b);
+    printf("%d %d", a, c);
+}
+
+int add(int a, int b)
+{
+    a = 15;
+    c = a + b;
+    return c;
+}
+
+
+Result:
+10 35
