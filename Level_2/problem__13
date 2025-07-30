@@ -1,9 +1,9 @@
+Write a C program that adds two numbers using a function. The values are assigned in main(),
+    passed to a function, and the result is returned and printed.
 
 #include <stdio.h>
-
 int add();
 int a, b, c;
-
 int main()
 {
     a = 10;
@@ -17,3 +17,6 @@ int add(int a, int b)
     c = a + b;
     return c;
 }
+
+result 
+30
