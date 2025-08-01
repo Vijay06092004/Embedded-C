@@ -1,1 +1,24 @@
+Get a 2 digit number and chcek if the digit 1 is less tha  or equal to digit 0 if yes print "success" else "failure'
 
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("enter a number:");
+    scanf("%d",&x);
+    if((x%10)<=(x/10))
+    {
+        printf("success");
+    }
+    else
+    {
+        printf("failure");
+    }
+}
+
+Result:
+enter a number:55
+success
+
+enter a number:38
+failure
