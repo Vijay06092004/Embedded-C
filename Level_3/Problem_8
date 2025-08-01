@@ -1,0 +1,25 @@
+Get a 2-digit number, check if the digit 0 and digit 1 are not identical. If yes print "sucess" else print "failure"
+
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("enter a number:");
+    scanf("%d",&x);
+    if((x%10)!=(x/10))
+    {
+        printf("success");
+    }
+    else
+    {
+        printf("failure");
+    }
+}
+
+Result:
+
+enter a number:66
+failure
+
+enter a number:25
+success
