@@ -1,1 +1,26 @@
+Get a 2 digit number and check if digit 0 is greater than digit 1. If yes print "success" else "failure".
 
+
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("enter a number:");
+    scanf("%d",&x);
+    if((x%10)>(x/10))
+    {
+        printf("success");
+    }
+    else
+    {
+        printf("failure");
+    }
+}
+
+Result:
+
+enter a number:31
+failure
+
+enter a number:98
+failure
