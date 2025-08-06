@@ -1,4 +1,4 @@
-Questio : Get a three- digit number from the user and print the ten's digit
+Question : Get a three- digit number from the user and print the ten's digit
 
 Example : input : 456   output : 5
           input : 569   output : 6
